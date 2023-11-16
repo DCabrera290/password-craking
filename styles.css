@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Varela+Round&display=swap");
+
+body {
+  text-align: center;
+  background-color: rgb(0, 25, 0);
+}
+main {
+  margin: auto;
+  width: 80%;
+}
+h1 {
+  font-size: 5vw;
+  font-family: "Varela Round", sans-serif;
+  background-color: black;
+  border-radius: 45px;
+  color: lime;
+  border: 1px dashed lime;
+}
+input.letter-input {
+  width: calc(80% / 5);
+  text-align: center;
+  font-size: 4vw;
+  background-color: black;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5);
+  margin: 0 0.5vw;
+  color: lime;
+  border: 1px dotted lime;
+}
+table {
+  text-align: center;
+  border: 1px dotted lime;
+  margin: 2rem auto;
+  background-color: black;
+  color: lime;
+}
+th,
+td {
+  vertical-align: top;
+  padding: 0.5rem;
+  border: 1px dotted lime;
+}
+tbody {
+  height: 70px;
+}
+p {
+  color: lime;
+}
