@@ -27,7 +27,7 @@ playerSelector.addEventListener("change", function () {
   }
 });
 // initialize game variables
-let phrase = "guessthepassword";
+let phrase = "loremipsum";
 let index = 0;
 let wrongCounter = 0;
 let wrong = document.getElementById("wrong");
